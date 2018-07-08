@@ -1,12 +1,17 @@
-.topbar {
-  height: 11.018518vh;
-  background-color: #474747;
+.navbar-light{
+  background-color: #F5F5F5 !important;
+  align-content: center !important;
+  align-items: flex-start !important;
+  display: flex !important;
+  flex-direction: row !important;
+  height: 10.018518vh !important;
+  box-shadow: 0px 0px 15px rgba(222,222,222,1) !important;
 }
 
 .center {
   display: flex;
   flex-direction: row;
-  height: 83.981482vh;
+  height: 78.981482vh;
   background-color: #F0F0F0;
 }
 
@@ -45,7 +50,12 @@
 }
 
 .submit {
-  border-color: red;
+  border-color: #257dc0;
   margin-top: 5%;
-  background-color: red;
+  background-color: #257dc0;
+}
+
+.bottombar {
+  height: 11.37037vh;
+  background-color: #F5F5F5;
 }

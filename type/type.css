@@ -1,0 +1,251 @@
+.navbar-light{
+  background-color: #F5F5F5 !important;
+  align-content: center !important;
+  align-items: flex-start !important;
+  display: flex !important;
+  flex-direction: row !important;
+  height: 10.018518vh !important;
+  box-shadow: 0px 0px 15px rgba(222,222,222,1) !important;
+}
+
+/* CENTER ------------------------- */
+.center {
+  display: flex;
+  flex-direction: row;
+  height: 78.6111vh;
+}
+
+/* Sidebar */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 8.8%;
+  height: 80vh;
+  background-color: white;
+}
+
+
+.part1 {
+  width: 41%;
+  height: 80vh;
+  background-color: white;
+}
+
+.textContent {
+
+}
+
+.part2 {
+  display: flex;
+  flex-direction: column;
+  width: 50.2%;
+  height: 80vh;
+  background-color: white;
+}
+
+.half1 {
+  background-color: white;
+  height: 40%;
+}
+
+.half2 {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 60%;
+}
+
+.graph {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.pie {
+  width: 100%;
+  height: 50%;
+}
+
+
+/* END CENTER -----------------------*/
+
+
+.info_selecter {
+  width: 100%;
+  height: 50%;
+  background-color: white;
+}
+
+.graphs {
+  width: 100%;
+  height: 50%;
+  background-color: white;
+}
+
+.bottombar {
+  height: 11.37037vh;
+  background-color: #F5F5F5;
+}
+
+/* Split the screen in half */
+.body-separated {
+	display: flex;
+	flex-direction: row;
+	height: 89.981482vh;
+}
+
+.middle{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text{
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 24px 40px;
+}
+
+.split-left-container:hover .left-image {
+  opacity: 1;
+  -webkit-filter: blur(3.5px); /* Safari 6.0 - 9.0 */
+  filter: blur(3.5px);
+  background-color: #4D9DE0; 
+}
+
+.split-left-container:hover .middle {
+  opacity: 1;
+}
+
+.split-left-container{
+	/*background-image: url('./images/enterprise.png');*/
+	position: relative;
+	width: 33.3%;
+	height: 100%;
+	background-color: #4D9DE0; 
+}
+
+.left-image{
+  padding-top: 30%;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 81.5%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.left-image:hover{
+	height: 81.5%;
+	width: 100%;
+    -webkit-filter: blur(3.5px); /* Safari 6.0 - 9.0 */
+    filter: blur(3.5px);
+    opacity: 1;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+
+.split-middle-container {
+	position: relative;
+	width: 33.3%;
+	height: 100%;
+	background-color: #FFC857; 
+}
+
+.split-middle-container:hover .center-image {
+  opacity: 1;
+  -webkit-filter: blur(3.5px); /* Safari 6.0 - 9.0 */
+  filter: blur(3.5px);
+  background-color: #FFC857;
+}
+
+.split-middle-container:hover .middle {
+  opacity: 1;
+}
+
+.center-image{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.center-image:hover{
+	height: 100%;
+	width: 100%;
+    -webkit-filter: blur(3.5px); /* Safari 6.0 - 9.0 */
+    filter: blur(3.5px);
+    opacity: 1;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.split-right-container {
+	position: relative;
+	width: 33.3%;
+	height: 100%;
+	background-color: #3BB273; 
+}
+
+.right-image{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.right-image:hover{
+	height: 100%;
+	width: 100%;
+    -webkit-filter: blur(3.5px); /* Safari 6.0 - 9.0 */
+    filter: blur(3.5px);
+    opacity: 1;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.split-right-container:hover .right-image {
+  opacity: 1;
+  -webkit-filter: blur(3.5px); /* Safari 6.0 - 9.0 */
+  filter: blur(3.5px);
+  background-color: #3BB273; 
+}
+
+.split-right-container:hover .middle {
+  opacity: 1;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: red;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
