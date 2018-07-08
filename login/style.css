@@ -1,0 +1,51 @@
+.topbar {
+  height: 11.018518vh;
+  background-color: #474747;
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  height: 83.981482vh;
+  background-color: #F0F0F0;
+}
+
+.column1{
+  width: 30%;
+  background-color: #F0F0F0;
+}
+
+.column2 {
+  display: flex;
+  align-content: center;
+  width: 40%;
+  background-color: #F0F0F0;
+}
+
+.inputBox {
+  height: 80%;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.btn-primary {
+  width: 33.33%;
+  margin-left: 33.33%;
+}
+
+.column3 {
+  width: 30%;
+  background-color: #F0F0F0;
+}
+
+.bottom {
+  height: 5vh;
+  background-color: #474747;
+}
+
+.submit {
+  border-color: red;
+  margin-top: 5%;
+  background-color: red;
+}

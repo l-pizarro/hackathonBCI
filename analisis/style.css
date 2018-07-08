@@ -1,0 +1,111 @@
+.topbar {
+  align-content: center;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  height: 12.018518vh;
+  background-color: #8C8C8C;
+}
+
+
+/* CENTER ------------------------- */
+.center {
+  display: flex;
+  flex-direction: row;
+  height: 78.6111vh;
+  background-color: white;
+}
+
+/* Sidebar */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 8.8%;
+  height: 80vh;
+  background-color: #BEBEBE;
+}
+
+
+.parametro1 {
+  height: 20%;
+  background-color: #BEBEBE;
+}
+
+.parametro2 {
+  height: 20%;
+  background-color: #BEBEBE;
+}
+
+.parametro3 {
+  height: 20%;
+  background-color: #BEBEBE;
+}
+
+.parametro4 {
+  height: 20%;
+  background-color: #BEBEBE;
+}
+
+.parametro5 {
+  height: 20%;
+  background-color: #BEBEBE;
+}
+
+
+.part1 {
+  width: 41%;
+  height: 80vh;
+  background-color: white;
+}
+
+.part2 {
+  display: flex;
+  flex-direction: column;
+  width: 50.2%;
+  height: 80vh;
+  background-color: white;
+}
+
+.half1 {
+  background-color: white;
+  height: 40%;
+}
+
+.half2 {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 60%;
+}
+
+.graph {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.pie {
+  width: 100%;
+  height: 50%;
+}
+
+
+/* END CENTER -----------------------*/
+
+
+.info_selecter {
+  width: 100%;
+  height: 50%;
+  background-color: white;
+}
+
+.graphs {
+  width: 100%;
+  height: 50%;
+  background-color: white;
+}
+
+.bottombar {
+  height: 9.37037vh;
+  background-color: #8C8C8C;
+}
