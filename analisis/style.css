@@ -1,19 +1,18 @@
-.topbar {
-  align-content: center;
-  align-items: flex-start;
-  display: flex;
-  flex-direction: row;
-  height: 12.018518vh;
-  background-color: #8C8C8C;
+.navbar-light{
+  background-color: #F5F5F5 !important;
+  align-content: center !important;
+  align-items: flex-start !important;
+  display: flex !important;
+  flex-direction: row !important;
+  height: 10.018518vh !important;
+  box-shadow: 0px 0px 15px rgba(222,222,222,1) !important;
 }
-
 
 /* CENTER ------------------------- */
 .center {
   display: flex;
   flex-direction: row;
   height: 78.6111vh;
-  background-color: white;
 }
 
 /* Sidebar */
@@ -22,33 +21,7 @@
   flex-direction: column;
   width: 8.8%;
   height: 80vh;
-  background-color: #BEBEBE;
-}
-
-
-.parametro1 {
-  height: 20%;
-  background-color: #BEBEBE;
-}
-
-.parametro2 {
-  height: 20%;
-  background-color: #BEBEBE;
-}
-
-.parametro3 {
-  height: 20%;
-  background-color: #BEBEBE;
-}
-
-.parametro4 {
-  height: 20%;
-  background-color: #BEBEBE;
-}
-
-.parametro5 {
-  height: 20%;
-  background-color: #BEBEBE;
+  background-color: white;
 }
 
 
@@ -56,6 +29,10 @@
   width: 41%;
   height: 80vh;
   background-color: white;
+}
+
+.textContent {
+
 }
 
 .part2 {
@@ -106,6 +83,6 @@
 }
 
 .bottombar {
-  height: 9.37037vh;
-  background-color: #8C8C8C;
+  height: 11.37037vh;
+  background-color: #F5F5F5;
 }
