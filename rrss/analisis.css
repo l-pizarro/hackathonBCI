@@ -14,7 +14,6 @@
   height: 78.6111vh;
 }
 
-/* Sidebar */
 .sidebar {
   display: flex;
   flex-direction: column;
@@ -30,6 +29,14 @@
   background-color: white;
 }
 
+.btn-group {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-primary {
+  width: 30% !important;
+}
 
 .part2 {
   display: flex;
@@ -40,8 +47,16 @@
 }
 
 .half1 {
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
   background-color: white;
   height: 40%;
+}
+
+.card {
+  width: 80%;
+  height: 80%;
 }
 
 .half2 {

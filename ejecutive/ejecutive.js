@@ -4,32 +4,32 @@ var config = {
   data: {
     labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
     datasets: [{
-      label: 'My First dataset',
+      label: 'Meta',
       backgroundColor: window.chartColors.red,
       borderColor: window.chartColors.red,
       data: [
-        randomScalingFactor(),
-        randomScalingFactor(),
-        randomScalingFactor(),
-        randomScalingFactor(),
-        randomScalingFactor(),
-        randomScalingFactor(),
-        randomScalingFactor()
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
       ],
       fill: false,
     }, {
-      label: 'My Second dataset',
+      label: 'Realidad',
       fill: false,
       backgroundColor: window.chartColors.blue,
       borderColor: window.chartColors.blue,
       data: [
-        randomScalingFactor(),
-        randomScalingFactor(),
-        randomScalingFactor(),
-        randomScalingFactor(),
-        randomScalingFactor(),
-        randomScalingFactor(),
-        randomScalingFactor()
+        4,
+        7,
+        4,
+        6,
+        6,
+        8,
+        5
       ],
     }]
   },
@@ -37,7 +37,7 @@ var config = {
     responsive: true,
     title: {
       display: true,
-      text: 'Chart.js Line Chart'
+      text: 'Rendimiento'
     },
     tooltips: {
       mode: 'index',
@@ -59,7 +59,7 @@ var config = {
         display: true,
         scaleLabel: {
           display: true,
-          labelString: 'Value'
+          labelString: 'Solicitudes aprobadas'
         }
       }]
     }

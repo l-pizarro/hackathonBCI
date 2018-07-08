@@ -29,6 +29,24 @@
   background-color: white;
 }
 
+.btn-group {
+  padding-bottom: : 2%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-primary {
+  width: 18% !important;
+}
+
+.btn-success {
+  width: 18% !important;
+}
+
+.btn-danger {
+  width: 18% !important;
+}
+
 
 .part2 {
   display: flex;
@@ -39,8 +57,16 @@
 }
 
 .half1 {
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
   background-color: white;
   height: 40%;
+}
+
+.card {
+  width: 80%;
+  height: 80%;
 }
 
 .half2 {
@@ -51,6 +77,7 @@
 }
 
 .graph {
+  padding-left: 5%;
   width: 100%;
   height: 100%;
   background-color: white;
