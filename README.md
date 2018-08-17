@@ -1,2 +1,2 @@
 # hackathonBCI
-Proyecto Hackathon 2018 
+BCI Hackathon 2018 
